@@ -1,0 +1,92 @@
+body{
+ margin: 0;
+ padding: 0;
+ background: #f1f1f1;
+ font-family: Yellowtail,Arial, Helvetica, sans-serif;
+ 
+}
+
+.hero-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: url(../img/img1.png) no-repeat center;
+    background-size: cover;
+   
+
+}
+
+.copywrite {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+
+
+.hero-text{
+position: relative;
+top: 5% ;
+right: 0%;
+transition: translate(-50%,-50%);
+overflow: hidden;
+text-align: center;
+color: #f1f1f1;
+font-weight: 700;
+text-shadow: 0 0 10px black;
+
+
+}
+
+.hero-text h1{
+    font-size: 72px;
+    letter-spacing: 0.2em;
+    margin: 0;
+}
+
+.hero-text h1 span{
+    border: 10px solid black;
+    padding: 6px 14px;
+    display: inline-block;
+    
+}
+
+
+.hero-text2 {
+    position: relative;
+    left: 20%;
+    top: 0%;
+    margin: 25px;
+    display: block;
+    font-size: 26px;
+    text-shadow: 0 0 10px black;
+}
+
+.button {
+    position: relative;
+    overflow: hidden;
+    top: 10%;
+    left: 20%;
+    color: #313131;
+    padding: 10px 25px;
+    font-size: 25px;
+    text-decoration: none;
+    background: #f1f1f1;
+    border-radius: 30px ;
+    outline-style: solid;
+    
+    transition:  0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.button:hover{
+    background-color:#26caf8;
+    opacity: 0.8;
+    box-shadow: 10px -10px 25px 0 rgba(144, 64, 248, 0.557),
+                -10px 10px 25px 0 rgba(233, 29, 29, 0.551);
+    color: #f1f1f1;
+    text-shadow: #313131;
+}
+
+.button:active {
+    background-color: #e514ec;
+}
